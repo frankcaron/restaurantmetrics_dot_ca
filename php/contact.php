@@ -6,7 +6,7 @@
  * ------------------------------------
  */
  
-$to    = "test@surjithctly.in"; // <--- Your email ID here
+$to    = "info@foodforward.ca"; // <--- Your email ID here
 
 /*
  * ------------------------------------
@@ -28,7 +28,7 @@ if (isset($email) && isset($name)) {
 
 		$headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
-$headers .= "From: webmaster@web3canvas.com"."\r\n"."Reply-To: ".$email."\r\n" ;
+$headers .= "From: Restaurant Metrics Website"."\r\n"."Reply-To: ".$email."\r\n" ;
 $msg     = "Hello,<br/><br/> You have received a message from your website contact form. Here are the details. <br/><br/> From: $name<br/> Email: $email <br/>Message: $msg <br><br> -- <br>This e-mail was sent from a contact form on $website";
 	
    $mail =  mail($to, $subject, $msg, $headers);

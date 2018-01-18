@@ -117,7 +117,7 @@ $(function() {
                     $("#js-subscribe-btn").attr("disabled", false);
                 },
                 error: function(d) {
-                    $('#js-subscribe-result').fadeIn('slow').html('<p class="help-block text-danger"> Sorry. Cannot access the PHP Server</p>').delay(3000).fadeOut('slow');
+                    $('#js-subscribe-result').fadeIn('slow').html('<p class="help-block text-danger">Oops! We couldn\'t deliver your email. Please try again later.</p>').delay(3000).fadeOut('slow');
                     $("#js-subscribe-btn").attr("disabled", false);
                 }
             });
