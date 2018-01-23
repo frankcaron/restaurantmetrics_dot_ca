@@ -2141,7 +2141,7 @@ header.video-bg {
 }
 
 .featured-on ul li img {
-  opacity: 0.33;
+  opacity: 0.66;
   max-width: 100%;
 }
 
@@ -4175,6 +4175,10 @@ footer.row {
 
 p.name {
   color: #aaa !important;
+}
+
+.navbar .navbar-default .navbar-fixed-top {
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
