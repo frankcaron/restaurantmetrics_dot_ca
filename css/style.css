@@ -4173,4 +4173,8 @@ footer.row {
   border: 0;
 }
 
+p.name {
+  color: #aaa !important;
+}
+
 /*# sourceMappingURL=style.css.map */
