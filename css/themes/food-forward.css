@@ -163,7 +163,7 @@ body.home header .navbar {
 }
 
 .feature-note .indicator .plus-icon:before {
-  border-color: #37474f;
+  border-color: #ffd966;
 }
 
 .feature-note .indicator .plus-icon:after {
@@ -171,7 +171,7 @@ body.home header .navbar {
 }
 
 .feature-note .indicator .plus-icon .plus {
-  background: #37474f;
+  background: #ffd966;
   color: #fff;
 }
 
