@@ -1403,8 +1403,8 @@ header.video-bg {
 
 @media (max-width: 767px) {
   .feature-note.right.top {
-    right: -110px;
-    top: 20px;
+    right: -60px;
+    top: -30px;
   }
 }
 
@@ -1444,8 +1444,8 @@ header.video-bg {
 
 @media (max-width: 767px) {
   .feature-note.right.bottom {
-    right: -122px;
-    top: 135px;
+    right: -80px;
+    top: 160px;
   }
 }
 
@@ -1553,8 +1553,8 @@ header.video-bg {
 
 @media (max-width: 767px) {
   .feature-note.left.top {
-    left: -110px;
-    top: 20px;
+    left: -80px;
+    top: -30px;
   }
 }
 
@@ -1601,8 +1601,8 @@ header.video-bg {
 
 @media (max-width: 767px) {
   .feature-note.left.bottom {
-    left: -100px;
-    top: 140px;
+    left: -70px;
+    top: 160px;
   }
 }
 
